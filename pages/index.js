@@ -36,29 +36,28 @@ const Home = () => {
 	return (
 		<div className="root">
 			<Head>
-				<title>GPT-3 Assistant | chriscelaya</title>
+				<title>GPT-3 Writer | buildspace</title>
 			</Head>
 			<div className="container">
 				<div className="header">
 					<div className="header-title">
 						{/* Change your headline here */}
-						<h1>English Translator and Improver</h1>
+						<h1>AI Blog Post Generator</h1>
 					</div>
 					<div className="header-subtitle">
-						<h1>How to use:</h1>
-					            <h2>
-							Replace simplified A0-level words and sentences with more beautiful and elegant, upper level English words and sentences.
-						</h2>
 						<h2>
-						     Use any language you want. The AI will automatically translate to english.
+							Just enter a title to the name of your blog post.
 						</h2>
-						<h3>Example: I love technology, how can I go to school and study this to become a computer scientist?</h3>
+						<h3>Examples:</h3>
+						<h4>How to Write a Blog Post That Boosts Your SEO</h4>
+						<h4>Writing for the Web: How to Create Compelling Blog Posts That Convert</h4>
+						<h4>From Idea to Publish: A Step-by-Step Guide to Writing a Blog Post</h4>
 					</div>
 				</div>
 
 				<div className="prompt-container">
 					<textarea
-						placeholder="Start typing here."
+						placeholder="start typing here"
 						className="prompt-box"
 						value={userInput}
 						onChange={onUserChangedText}
